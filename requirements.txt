@@ -1,0 +1,10 @@
+# GUI Frameworks
+PyQt5>=5.15.0
+kivy>=2.1.0
+
+# Core Python packages (usually included but just in case)
+queue
+sys
+
+# Optional: If you want to specify Python version
+# python_requires>=3.7
