@@ -1,19 +1,19 @@
-# 🌊 River Crossing Puzzle
+#  River Crossing Puzzle
 
 A modern implementation of the classic river crossing logic puzzle with beautiful PyQt5 GUI and intelligent BFS solver.
 
-## 🎮 Game Description
+##  Game Description
 
 Help the farmer safely transport a lion, goat, and grass across the river! This classic logic puzzle challenges you to find the optimal sequence of moves while following strict safety rules.
 
 **The Challenge:**
-- 👨‍🌾 The farmer must transport everyone across the river
-- 🚣 Only the farmer can operate the boat
-- ⚖️ The boat can only carry the farmer plus ONE item at a time
-- 🚫 **Critical Rule:** Lion cannot be alone with goat (lion will eat goat)
-- 🚫 **Critical Rule:** Goat cannot be alone with grass (goat will eat grass)
+-  The farmer must transport everyone across the river
+-  Only the farmer can operate the boat
+-  The boat can only carry the farmer plus ONE item at a time
+-  **Critical Rule:** Lion cannot be alone with goat (lion will eat goat)
+-  **Critical Rule:** Goat cannot be alone with grass (goat will eat grass)
 
-## 📸 Screenshots
+##  Screenshots
 
 ![Game Interface](https://github.com/user-attachments/assets/83c6b103-bfdb-4fb9-8e95-7becda0f4895)
 *Main game interface with modern PyQt5 styling*
@@ -21,7 +21,7 @@ Help the farmer safely transport a lion, goat, and grass across the river! This 
 ![Solution in Progress](https://github.com/user-attachments/assets/310eced4-94cf-4192-85c6-06974ec251a8)
 *Automatic solver showing step-by-step solution*
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -49,31 +49,31 @@ Help the farmer safely transport a lion, goat, and grass across the river! This 
    python River_Crossing_PyQt5_GUI.py
    ```
 
-## 🎯 Features
+##  Features
 
-### 🧠 Intelligent Solver
+###  Intelligent Solver
 - **BFS Algorithm**: Uses Breadth-First Search to find the optimal solution
 - **Guaranteed Optimal**: Always finds the shortest path (8 steps)
 - **State Validation**: Prevents invalid moves that violate safety rules
 
-### 🎨 Modern GUI
+###  Modern GUI
 - **Professional Design**: Beautiful PyQt5 interface with gradients and effects
 - **Visual Feedback**: Color-coded sides and character positioning
 - **Smooth Animations**: Automated solving with step-by-step visualization
 - **Responsive Layout**: Scales beautifully to different window sizes
 
-### 🎮 Interactive Controls
-- **🔍 Find Solution**: Discover the optimal path using BFS
-- **▶️ Auto Solve**: Watch the solution unfold automatically
-- **⏭️ Next Step**: Manually step through the solution
-- **🔄 Reset**: Start over at any time
+###  Interactive Controls
+- ** Find Solution**: Discover the optimal path using BFS
+- ** Auto Solve**: Watch the solution unfold automatically
+- ** Next Step**: Manually step through the solution
+- ** Reset**: Start over at any time
 
-### 🛡️ Safety Features
+###  Safety Features
 - **Invalid State Detection**: Visual warnings when rules are violated
 - **Move Validation**: Only allows legal moves
 - **Error Handling**: Graceful handling of edge cases
 
-## 🧮 Algorithm Details
+##  Algorithm Details
 
 The puzzle solver uses **Breadth-First Search (BFS)** to guarantee finding the shortest solution:
 
@@ -86,7 +86,7 @@ The puzzle solver uses **Breadth-First Search (BFS)** to guarantee finding the s
 **Space Complexity**: O(16) for visited states tracking  
 **Solution Length**: 8 steps (optimal)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 river-crossing-puzzle/
@@ -101,7 +101,7 @@ river-crossing-puzzle/
     └── screenshot2.png
 ```
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### Core Components
 - **GameCanvas**: Custom PyQt5 widget with professional graphics rendering
@@ -115,7 +115,7 @@ river-crossing-puzzle/
 - **Queue-based BFS**: Efficient optimal pathfinding
 - **Event-driven Architecture**: Responsive user interface
 
-## 🎓 Educational Value
+##  Educational Value
 
 This project demonstrates several computer science concepts:
 - **Graph Theory**: State space representation and traversal
@@ -130,26 +130,26 @@ Perfect for:
 - GUI programming examples
 - Algorithm visualization projects
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here are some ideas:
-- 🎨 **UI Improvements**: Enhanced graphics, animations, or themes
-- 🧠 **Algorithm Extensions**: A* search, different heuristics, or solver comparisons
-- 🎮 **Game Features**: Difficulty levels, hints system, or puzzle variations
-- 📱 **Platform Support**: Mobile versions or web implementation
-- 🎵 **Audio**: Sound effects and background music
+-  **UI Improvements**: Enhanced graphics, animations, or themes
+-  **Algorithm Extensions**: A* search, different heuristics, or solver comparisons
+-  **Game Features**: Difficulty levels, hints system, or puzzle variations
+-  **Platform Support**: Mobile versions or web implementation
+-  **Audio**: Sound effects and background music
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Classic river crossing puzzle concept
 - PyQt5 community for excellent documentation
 - Algorithm design inspired by AI search techniques
 
-## 📞 Contact
+##  Contact
 
 Created by [Your Name] - feel free to contact me!
 
