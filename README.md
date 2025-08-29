@@ -19,6 +19,7 @@ Help the farmer safely transport a lion, goat, and grass across the river! This 
 *Main game interface with modern PyQt5 styling*
 
 ![Solution in Progress](https://github.com/user-attachments/assets/310eced4-94cf-4192-85c6-06974ec251a8)
+
 *Automatic solver showing step-by-step solution*
 
 ##  Installation & Setup
